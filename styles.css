@@ -1,0 +1,4 @@
+/* Estilo para ocultar o campo de faltas quando necessário */
+.hidden {
+    display: none;
+}
