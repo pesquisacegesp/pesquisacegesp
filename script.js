@@ -19,7 +19,7 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
     var errorMessage = document.getElementById("error-message"); // Área da mensagem de erro
 
     // Verificar se a Unidade já existe na planilha
-    fetch(`https://script.google.com/macros/s/AKfycbzxH1QzoA16XvqdkmsZkFDApZAs6URHdhtq2lqexsL3Tmv3MfdWUd2rdXHgO2tubDwS/exec?unidade=${unidade}`)
+    fetch(`https://script.google.com/macros/s/AKfycbxe7_WXExBKw9CllC325pdYEGOucKTKRspYPGpI5iF92p_ztr3vuC6mJv2opbXcIRQC/exec?unidade=${unidade}`)
         .then(response => response.json())
         .then(data => {
             if (data.status === "exists") {
